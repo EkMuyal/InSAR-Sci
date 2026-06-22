@@ -1,0 +1,21 @@
+name: insar_sci
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - shapely
+  - geopandas
+  - openpyxl
+  - scipy
+  - matplotlib
+  - numpy
+  - python=3.11
+  - pandas
+  - fiona
+  - pyproj
+  - ipywidgets
+  - pyyaml
+  - jupyterlab
+  - tqdm
+  - rasterio
+prefix: /home/camilo/miniforge3/envs/insar_sci

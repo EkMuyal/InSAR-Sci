@@ -1,0 +1,79 @@
+# ============================================================
+# Python / Jupyter
+# ============================================================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Local environments
+# ============================================================
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ============================================================
+# Conda / environment artifacts
+# ============================================================
+.conda/
+conda-meta/
+
+# ============================================================
+# OS / editor files
+# ============================================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+~$*
+.vscode/
+.idea/
+
+# ============================================================
+# Project outputs: generated, not source code
+# ============================================================
+outputs/
+figures/
+logs/
+results/
+quicklooks/
+quiklooks/
+
+# ============================================================
+# Large geospatial / InSAR products
+# Do not commit rasters or GAMMA binaries by accident.
+# We can later whitelist tiny test files if needed.
+# ============================================================
+*.tif
+*.tiff
+*.vrt
+*.aux.xml
+*.ovr
+*.img
+*.hdr
+*.bil
+*.bsq
+
+*.int
+*.unw
+*.coh
+*.disp
+*.rslc
+*.slc
+*.rmli
+*.lt
+*.hgt
+*.off
+*.par
+*.tops_par
+
+# ============================================================
+# Data policy
+# Keep real data out of Git. Small sample CSVs can be added
+# deliberately later if we decide they are safe and useful.
+# ============================================================
+data/
